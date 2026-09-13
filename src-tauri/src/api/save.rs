@@ -277,7 +277,7 @@ pub async fn load_save(app: AppHandle, save_id: i32) -> Result<WebInitData, Stri
     // 同步记录当前角色，供主菜单"继续游戏"定位（与 select_character 一致）
     if let Ok(store) = app.store(crate::config::store_path()) {
         store.set(
-            crate::config::keys::LAST_CHARACTER_ID.to_string(),
+            crate::config::session::LAST_CHARACTER_ID.to_string(),
             JsonValue::Number((main_role_id as i64).into()),
         );
         let _ = store.save();

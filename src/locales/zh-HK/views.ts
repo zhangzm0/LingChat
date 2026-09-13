@@ -56,7 +56,9 @@ export default {
     "storyMode": "劇情模式",
     "scriptEditor": "劇本編輯器",
     "miniGame": "小遊戲（開發緊）",
-    "back": "返回"
+    "back": "返回",
+    "continueSaveTitle": "繼續上次進度",
+    "continueSaveMessage": "偵測到上次存檔。要繼續上次嘅進度嗎？（取消則前往存檔頁）"
   },
   "pet": {
     "chatInput": {

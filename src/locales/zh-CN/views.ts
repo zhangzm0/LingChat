@@ -56,6 +56,8 @@ export default {
     scriptEditor: '剧本编辑器',
     miniGame: '小游戏（开发中）',
     back: '返回',
+    continueSaveTitle: '继续上次进度',
+    continueSaveMessage: '检测到上次存档。要继续上次的进度吗？（取消则前往存档页）',
   },
   pet: {
     chatInput: {
